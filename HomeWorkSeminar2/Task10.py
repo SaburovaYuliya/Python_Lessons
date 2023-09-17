@@ -1,3 +1,4 @@
+
 n, k = 6, 0
 numbers = "0 0 0 0 1 1".split(" ")
 print(numbers)
