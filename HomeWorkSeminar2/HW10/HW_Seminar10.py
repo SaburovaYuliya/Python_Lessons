@@ -18,6 +18,6 @@ data = pd.DataFrame({'whoAmI': lst})
 data.head()
 #print(data)
 
-data.loc[data['whoAmI'] == 'robot', 'whoAmI'] = '0'
-data.loc[data['whoAmI'] == 'human', 'whoAmI'] = '1'
+data.loc[data['whoAmI'] == 'robot', 'whoAmI'] = 0
+data.loc[data['whoAmI'] == 'human', 'whoAmI'] = 1
 print(data)
